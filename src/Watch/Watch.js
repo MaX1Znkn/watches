@@ -20,7 +20,7 @@ const Watch = () => {
 
 	const handleSubmit = (event) => {
 		event.preventDefault();
-		setValue((prev) => ({ ...prev, id: nextId() }));
+		setValue((prev) => ({ name: "", TimeZone: 0 }));
 		setFormArr((prev) => [...prev, forms]);
 	};
 
